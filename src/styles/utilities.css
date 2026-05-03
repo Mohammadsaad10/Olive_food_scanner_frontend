@@ -1,0 +1,71 @@
+/* Hero product strip: stronger L/R fade into screen (phone crop). */
+/* How it works — middle card: fade strip at L/R edges */
+.how-it-works-slider-mask {
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(0, 0, 0, 0.5) 12%,
+    #000 28%,
+    #000 72%,
+    rgba(0, 0, 0, 0.5) 88%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(0, 0, 0, 0.5) 12%,
+    #000 28%,
+    #000 72%,
+    rgba(0, 0, 0, 0.5) 88%,
+    transparent 100%
+  );
+}
+
+@keyframes how-it-works-recipes-marquee {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}
+
+.how-it-works-recipes-track {
+  animation: how-it-works-recipes-marquee 28s linear infinite;
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .how-it-works-recipes-track {
+    animation: none;
+  }
+}
+
+.hero-carousel-mask {
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(0, 0, 0, 0.35) 8%,
+    #000 18%,
+    #000 82%,
+    rgba(0, 0, 0, 0.35) 92%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(0, 0, 0, 0.35) 8%,
+    #000 18%,
+    #000 82%,
+    rgba(0, 0, 0, 0.35) 92%,
+    transparent 100%
+  );
+}
+
+.olive-section-padding {
+  @apply py-12 md:py-24;
+}
+
+.olive-card {
+  @apply rounded-3xl bg-white;
+}

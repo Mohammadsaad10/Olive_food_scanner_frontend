@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* Navbar: full desktop bar from 1200px; hamburger below (covers ~1024px “small laptop”). */
+@theme {
+  --breakpoint-nav: 1200px;
+  --font-pall: 'pallFont', Georgia, serif;
+  --font-nueu: 'nueuFont', Arial, sans-serif;
+  --font-inter: 'Inter', Arial, sans-serif;
+  --font-dm-sans: 'DM Sans', Arial, sans-serif;
+  --color-primary: #253612;
+} 
