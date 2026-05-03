@@ -127,5 +127,3 @@ This project follows clean coding practices:
 ## 🔗 Links
 
 - **Live Demo**: [View Live Site](https://olivefrontend.vercel.app/)
-
-Built with ❤️ for healthier food choices and informed decisions.
