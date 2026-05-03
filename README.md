@@ -1,15 +1,4 @@
-# Olive - Holistic Food Scanner Frontend
-
-A modern, responsive React application that helps users make informed food choices through intelligent barcode scanning and ingredient analysis.
-
-## 🌟 Features
-
-- **Smart Barcode Scanning**: Instant analysis of food products via barcode scanning
-- **Ingredient Intelligence**: Comprehensive breakdown of ingredients with health insights
-- **Personalized Recommendations**: Tailored suggestions based on dietary preferences and restrictions
-- **Family Health Focus**: Proactive filtering of harmful additives and controversial ingredients
-- **Visual Product Analysis**: Interactive product comparison and nutritional scoring
-- **Responsive Design**: Optimized for mobile, tablet, and desktop experiences
+# Olive Food Scanner Frontend
 
 ## 🚀 Tech Stack
 
@@ -134,16 +123,9 @@ This project follows clean coding practices:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🔗 Links
 
-- **Live Demo**: [Demo URL]
-- **API Documentation**: [API Docs URL]
-- **Design System**: [Component Standards](./src/docs/COMPONENT_STANDARDS.md)
-
----
+- **Live Demo**: [View Live Site](https://olivefrontend.vercel.app/)
 
 Built with ❤️ for healthier food choices and informed decisions.
